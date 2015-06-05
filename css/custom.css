@@ -1,0 +1,151 @@
+/* Custom Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@import url('../css/genericons/genericons.css');
+
+body {
+  background: #D1DCE0;
+  color: #373758;
+}
+
+#main {
+  padding-top: 5%;
+  width: 100%;
+}
+
+#main h1 {
+  font-weight: bold;
+  font-size: 5rem;
+  transition: fade-in 2s;
+}
+#main h1 .genericon {
+  margin-top: 3rem;
+}
+#main p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  font-family: Calluna, serif;
+}
+
+#portrait {
+  overflow: hidden;
+  padding-top: 5%;
+}
+
+#portrait img {
+  width: 100%;
+}
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  #main {
+    width: 80%;
+  }
+  #portrait {
+    width: 80%;
+  }
+  #portrait img {
+    width: 60%;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  #main {
+    width: 45%;
+  }
+  #portrait {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    min-height: 500px;
+
+  }
+  #portrait img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 100%;
+    margin-left: -200%;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  #main {
+    width: 45%;
+    padding:6% 0;
+  }
+  #main p {
+    font-size: 2rem;
+  }  
+  #portrait {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    min-height: 600px;
+
+  }
+  #portrait img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 100%;
+    margin-left: -200%;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  #main {
+    width: 40%;
+    padding:8% 5%;
+  }
+
+  #portrait {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    min-height: 700px;
+
+  }
+  #portrait img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 100%;
+    margin-left: -200%;
+  }
+
+}

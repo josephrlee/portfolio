@@ -48,6 +48,10 @@ body {
   border-bottom: solid 1px #99A8C4; 
 }
 
+.case-study:nth-child(odd) {
+  background-color: #DFFDFF;
+}
+
 .case-study:last-child {
   border-bottom: none;
 }
@@ -55,7 +59,22 @@ body {
 .case-study article {
   margin-top: 1rem;
 }
-
+.case-study h2 {
+  font-weight: bold;
+}
+.case-study .btn {
+  border: solid 2px rgba(0,0,0,0.1);
+  font-family:  "calluna-sans", sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: normal;
+  text-decoration: none;
+  transition: 300ms ease-out;
+}
+.case-study .btn:hover {
+  border-color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.5);
+}
 #work img {
   max-width: 100%;
   border: solid 5px rgba(0,0,0,0.25);

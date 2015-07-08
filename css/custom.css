@@ -1,24 +1,15 @@
 /* Custom Styles  */
 
-@import url("../css/genericons/genericons.css");
-
+@import url("genericons/genericons.css");
 body {
-    background: #E5E1EE;
-    color: #08415C;
-    -webkit-font-smoothing: subpixel-antialiased;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
-      margin: 0;
-  -webkit-perspective: 1000;
-
+  background: #E5E1EE;
+  color: #08415C;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
-body, html {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-.menu, .menu-bg, .menu-burger {
+.menu,
+.menu-bg,
+.menu-burger {
   position: fixed;
   font-size: 30px;
   text-align: center;
@@ -27,9 +18,10 @@ body, html {
 .menu-bg {
   background: rgba(255, 255, 255, 0.8);
   pointer-events: none;
+  z-index: 1;
 }
+
 .menu-bg.fs {
-  transform: translate3d(50%, -50%, 0);
   width: 300%;
   height: 300%;
 }
@@ -39,9 +31,9 @@ body, html {
   -webkit-user-select: none;
   cursor: pointer;
   transition: .4s;
-  position: fixed !important;
   top: 25px;
   right: 25px;
+  text-shadow: rgba(0,0,0,0.3) 0 0px 4rem;
 }
 
 .menu-items {
@@ -57,262 +49,233 @@ body, html {
   margin-top: 100px;
   transform: translateY(-200%);
   pointer-events: none;
+  z-index: 2;
 }
+
 .menu-items div {
   transition: 1s;
   opacity: 0;
   margin-top: 0px;
 }
+
 .menu-items.fs {
   transform: translateY(0);
   pointer-events: auto;
   opacity: 1;
+  position: fixed;
 }
+
 .menu-items.fs div {
   opacity: 1;
   margin-top: 75px;
 }
 
-#nav {
-    position: absolute;
-    list-style: none;
-    padding: 0;
-    float: right;
-    text-align: right;
-    display: block;
-    margin: 2em 0 0 0;
-}
-
-#nav li {
-    float: left;
-    margin: 0 1rem;
-    padding: 0;
-}
-
-#nav li a {
-    border: solid 2px rgba(255, 255, 255, 0.3);
-    font-family: "calluna-sans", sans-serif;
-    padding: .75rem 1.5rem;
-    font-size: 1.5rem;
-    color: #rgba(255, 255, 255, 0.3) !important;
-    border-radius: 4px;
-    font-weight: normal;
-    text-decoration: none;
-    transition: 300ms ease-out;
-    text-shadow: none;
-}
-
-#nav li a:hover, #nav li a.active {
-    border-color: rgba(255, 255, 255, 0.6);
-    color: rgba(255, 255, 255, 0.6);
-}
-
 #about {
-    padding-top: 5%;
-    width: 100%;
+  padding-top: 5%;
+  width: 100%;
 }
 
 #about h1 {
-    font-weight: bold;
-    font-size: 5rem;
+  font-weight: bold;
+  font-size: 5rem;
 }
 
 #about h1 .genericon {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 p {
-    font-size: 1.8rem;
-    font-weight: 100;
-    font-family: Calluna, serif;
-    text-shadow: 0 -1px 2px rgba(255, 255, 255, 0.4);
-    /*background: linear-gradient(#53B66D, #B5FFE1);
+  font-size: 1.8rem;
+  font-weight: 100;
+  font-family: Calluna, serif;
+  text-shadow: 0 -1px 2px rgba(255, 255, 255, 0.4);
+  /*background: linear-gradient(#53B66D, #B5FFE1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }
 
 #portrait {
-    overflow: hidden;
-    padding-top: 5%;
-    z-index: -2;
+  overflow: hidden;
+  padding-top: 5%;
+  z-index: -2;
 }
 
 #portrait img {
-    width: 100%;
-    transition: fade-in 2s;
+  width: 100%;
+  transition: fade-in 2s;
 }
 
 .case-study {
-    padding: 5rem 0;
-    background-color: #B1C2E2;
-    border-bottom: solid 1px #99A8C4;
+  padding: 5rem 0;
+  background-color: #B1C2E2;
+  border-bottom: solid 1px #99A8C4;
 }
 
 .case-study:nth-child(odd) {
-    background-color: #DFFDFF;
+  background-color: #DFFDFF;
 }
 
 .case-study:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .case-study article {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .case-study h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .case-study .btn {
-    border: solid 2px rgba(0, 0, 0, 0.1);
-    font-family: "calluna-sans", sans-serif;
-    padding: 1rem 2rem;
-    border-radius: 4px;
-    font-weight: normal;
-    text-decoration: none;
-    transition: 300ms ease-out;
+  border: solid 2px rgba(0, 0, 0, 0.1);
+  font-family: "calluna-sans", sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: normal;
+  text-decoration: none;
+  transition: 300ms ease-out;
 }
 
 .case-study .btn:hover {
-    border-color: rgba(0, 0, 0, 0.5);
-    color: #08415C;
+  border-color: rgba(0, 0, 0, 0.5);
+  color: #08415C;
 }
 
 #work img {
-    max-width: 100%;
-    border: solid 5px rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
+  max-width: 100%;
+  border: solid 5px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
 }
 
 .case-study .back-to-top {
-    text-align: center;
-    font-size: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 footer {
-    background-color: #E5E1EE;
-    padding: 4rem 0 3rem;
+  background-color: #E5E1EE;
+  padding: 4rem 0 3rem;
 }
 
 footer p {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
 /* Only mobile */
+
 @media (max-width: 1040px) {
-    .case-study article {
-        position: relative !important;
-    }
+  .case-study article {
+    position: relative !important;
+  }
 }
-
 /* Larger than mobile */
+
 @media (min-width: 400px) {}
-
 /* Larger than phablet (also point when grid becomes active) */
+
 @media (min-width: 550px) {
-    #about {
-        width: 80%;
-    }
-    #portrait {
-        width: 80%;
-    }
-    #portrait img {
-        width: 60%;
-    }
+  #about {
+    width: 80%;
+  }
+  #portrait {
+    width: 80%;
+  }
+  #portrait img {
+    width: 60%;
+  }
 }
-
 /* Larger than tablet */
+
 @media (min-width: 750px) {
-    header {
-        height: 100vh;
-    }
-    #about {
-        width: 45%;
-    }
-    #portrait {
-        position: fixed;
-        top: 0;
-        right: 0;
-        margin: 0;
-        padding: 0;
-        bottom: 0;
-        left: auto;
-        text-align: center;
-        width: auto;
-        height: auto;
-        max-width: 50%;
-        min-height: 500px;
-    }
-    #portrait img {
-        height: 100%;
-        width: auto;
-        position: relative;
-        left: 100%;
-        margin-left: -200%;
-    }
-    .case-study article {
-        padding-right: 2%;
-    }
+  header {
+    height: 100vh;
+  }
+  #about {
+    width: 45%;
+  }
+  #portrait {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    min-height: 500px;
+  }
+  #portrait img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 100%;
+    margin-left: -200%;
+  }
+  .case-study article {
+    padding-right: 2%;
+  }
 }
-
 /* Larger than desktop */
-@media (min-width: 1000px) {
-    #about {
-        width: 45%;
-        padding: 6% 0;
-    }
-    #about p {
-        font-size: 2rem;
-    }
-    #portrait {
-        position: fixed;
-        top: 0;
-        right: 0;
-        margin: 0;
-        padding: 0;
-        bottom: 0;
-        left: auto;
-        text-align: center;
-        width: auto;
-        height: auto;
-        max-width: 50%;
-        min-height: 600px;
-    }
-    #portrait img {
-        height: 100%;
-        width: auto;
-        position: relative;
-        left: 100%;
-        margin-left: -200%;
-    }
-}
 
+@media (min-width: 1000px) {
+  #about {
+    width: 45%;
+    padding: 6% 0;
+  }
+  #about p {
+    font-size: 2rem;
+  }
+  #portrait {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    min-height: 600px;
+  }
+  #portrait img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 100%;
+    margin-left: -200%;
+  }
+}
 /* Larger than Desktop HD */
+
 @media (min-width: 1200px) {
-    #about {
-        width: 40%;
-        padding: 8% 5%;
-    }
-    #portrait {
-        position: fixed;
-        top: 0;
-        right: 0;
-        margin: 0;
-        padding: 0;
-        bottom: 0;
-        left: auto;
-        text-align: center;
-        width: auto;
-        height: auto;
-        max-width: 50%;
-        min-height: 700px;
-    }
-    #portrait img {
-        height: 100%;
-        width: auto;
-        position: relative;
-        left: 100%;
-        margin-left: -200%;
-    }
+  #about {
+    width: 40%;
+    padding: 8% 5%;
+  }
+  #portrait {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    min-height: 700px;
+  }
+  #portrait img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 100%;
+    margin-left: -200%;
+  }
 }

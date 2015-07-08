@@ -14,7 +14,6 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="//use.typekit.net/ovj6sbn.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
     <!-- Styles
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -40,7 +39,7 @@
     <script type="text/javascript">
     $(document).ready(function() {
     $(".description").stick_in_parent({
-    offset_top: 30
+    offset_top: 0
     })
     $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
@@ -56,15 +55,28 @@
     }
     });
     });
+    $('.menu-burger, .menu-items').on('click', function() {
+    $('.menu-bg, .menu-items, .menu-burger').toggleClass('fs');
+    $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
+    });
     });
     </script>
   </head>
   <body>
+    <nav>
+      <div class="menu-bg"></div>
+      <div class="menu-burger">☰</div>
+      <div class="menu-items">
+        <div><a href="#about" title="About" class="active">About</a></div>
+        <div><a href="#work" title="Work">Work</a></div>
+        <div><a href="#contact" title="Get in Touch">Contact</a></div>
+      </div>
+    </nav>
     <header class="container">
       <div id="portrait">
         <img src="assets/me.jpg" alt="me">
       </div>
-      <article id="main">
+      <article id="about">
         <h1>{{ meta.title }} <a href="http://instagram.com/josephrlee" title="View my Instagram"><span class="genericon genericon-instagram"></span></a> <a href="https://www.linkedin.com/in/josephrlee" title="Connect on LinkedIn"><span class="genericon genericon-linkedin"></span></a> <a href="http://twitter.com/josephrlee" title="Connect on Twitter"><span class="genericon genericon-twitter"></span></a></h1>
         {{ body }}
       </article>
@@ -76,25 +88,21 @@
             <article class="four columns description">
               <h2>{{ post.title }}</h2>
               <p>{{ post.meta.description }}</p>
-              {% if type == 'post' %}
-              <dl>
-                {% for tagset in taxonomy %}
-                  {% for tag in tagset %}
-                    <dt>{{tagset.key}}</dt>
-                    <dd>{{tag.value}}</dd>
-                  {% endfor %}
-                {% endfor %}
-              </dl>
-              {% endif %}
               <p><a href="{{ post.meta.visit }}" title="Visit {{ post.title }}" class="btn">Visit Site</a></p>
             </article>
             <aside class="eight columns images">
               {{ post.body }}
+              <p class="back-to-top"><a href="#main" title="Back to Top">Back to Top</a></p>
             </aside>
           </div>
         </div>
       {% endfor %}
     </section>
+    <footer id="contact">
+      <div class="container">
+        <p>Thanks for taking the time to look at my work. If you're interested in learning more, I'd love to <a href="mailto:josephrlee@gmail.com" title="Say Hello">hear from you</a>. Here is a <a href="http://www.josephrlee.com/resume.pdf" title="My Resume">a copy of my resume</a> and you can also find me on <a href="http://www.linkedin.com/in/josephrlee" title="My profile on Linkedin">Linkedin</a>.</p>
+      </div>
+    </footer>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

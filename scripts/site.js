@@ -5,6 +5,17 @@ $(document).ready(function() {
     $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
   });
 
+  // Image Fadein
+  $('img').on('webkitAnimationEnd', function(e) {
+    $(this).addClass('visible');
+  });
+
+  //Portriat Fade Out
+
+  $(window).scroll(function() {
+    $("#portrait").css("opacity", 1 - $(window).scrollTop() / 600);
+  });
+
   // Sticky Kit
   $(".info").stick_in_parent();
 

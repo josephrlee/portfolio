@@ -24,17 +24,34 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/skeleton.css">
-  <link rel="stylesheet" href="./css/custom.css">
-  {% comment %}
+  <link rel="stylesheet" href="./css/custom.css"> {% comment %}
   <style>
-    {% for post in posts %}
-      #{{ post.meta.name }} {
-      background-color: {{ post.meta.color }};
-      color: {{ post.meta.type }};
+  {
+      % for post in posts %
+    }
+
+    #{{ post.meta.name }}
+  {
+    background-color: {
+      {
+        post.meta.color
       }
-    {% endfor %}
-    </style>
-    {% endcomment %}
+    }
+
+    ;
+    color: {
+      {
+        post.meta.type
+      }
+    }
+
+    ;
+  }
+  {
+    % endfor %
+  }
+  </style>
+  {% endcomment %}
   <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="assets/favicon.png">
@@ -58,7 +75,7 @@
   </nav>
   <header class="container">
     <div id="portrait">
-      <img src="assets/me.jpg" alt="me">
+      <img src="assets/me.jpg" alt="me" class="move">
     </div>
     <article id="about">
       <h1>{{ meta.title }}
@@ -75,14 +92,14 @@
     </article>
   </header>
   <main id="work">
-    {% assign sorted_posts = posts | sort:"meta.num" %}
-    {% for post in sorted_posts %}
+    {% assign sorted_posts = posts | sort:"meta.num" %} {% for post in sorted_posts %}
     <section id="{{ post.meta.name }}" class="case-study">
       <div class="container">
         <article class="four columns info">
           <h2>{{ post.title }}</h2>
           <p>{{ post.meta.description }}</p>
-          <p><a href="{{ post.meta.visit }}" title="Visit {{ post.title }}" class="btn">Visit Site</a></p>
+          {{ post.meta.meta }}
+          <p><a href="{{ post.meta.visit }}" title="Visit {{ post.title }}" class="btn twelve columns">View Live Site</a></p>
         </article>
         <aside class="eight columns images">
           {{ post.body }}

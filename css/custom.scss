@@ -21,6 +21,8 @@ img {
   opacity: 0;
   animation: fadein 1s;
   -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
 }
 @keyframes fadein {
   from {
@@ -31,6 +33,22 @@ img {
   }
 }
 @-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
   from {
     opacity: 0;
   }
@@ -147,6 +165,8 @@ p {
   article {
     margin-top: 2rem;
     padding-bottom: 4rem;
+    position: sticky;
+    position: -webkit-sticky;
   }
   h2 {
     font-weight: bold;
@@ -252,24 +272,14 @@ footer {
     width: 45%;
   }
   #portrait {
-    position: fixed;
-    top: 0;
+    width: 45%;
+    float: right;
+    top: 3rem;
+    position: absolute;
     right: 0;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    left: auto;
-    text-align: center;
-    width: auto;
-    height: auto;
-    max-width: 50%;
-    min-height: 500px;
     img {
-      height: 100%;
-      width: auto;
-      position: relative;
-      left: 100%;
-      margin-left: -200%;
+      width: 100%;
+      right: 0;
     }
   }
 }
@@ -291,18 +301,13 @@ footer {
     padding: 0;
     bottom: 0;
     left: auto;
-    text-align: center;
     width: auto;
     height: auto;
-    max-width: 50%;
+    max-width: 45%;
     min-height: 600px;
-    opacity: 1;
     img {
-      height: 100%;
       width: auto;
-      position: relative;
-      left: 100%;
-      margin-left: -200%;
+      right: 0;
     }
   }
   .case-study article {
@@ -321,24 +326,10 @@ footer {
     padding: 8% 5%;
   }
   #portrait {
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    left: auto;
-    text-align: center;
-    width: auto;
-    height: auto;
     max-width: 50%;
     min-height: 700px;
     img {
-      height: 100%;
       width: auto;
-      position: relative;
-      left: 100%;
-      margin-left: -200%;
     }
   }
   // .case-study .btn {

@@ -1,12 +1,23 @@
 $(document).ready(function() {
+
   // Full Screen Nav Overlay
   $('.menu-burger, .menu-items').on('click', function() {
     $('.menu-bg, .menu-items, .menu-burger').toggleClass('fs');
     $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
   });
 
+
   // Image Fadein
+
   $('img').on('webkitAnimationEnd', function(e) {
+    $(this).addClass('visible');
+  });
+
+  $('img').on('MSAnimationEnd', function(e) {
+    $(this).addClass('visible');
+  });
+
+  $('img').on('animationend', function(e) {
     $(this).addClass('visible');
   });
 
@@ -17,7 +28,9 @@ $(document).ready(function() {
   });
 
   // Sticky Kit
-  $(".info").stick_in_parent();
+  $(".info").stick_in_parent({
+    recalc_every: 1
+  });
 
   // Smooth Scrolling
   $('a[href^="#"]').on('click', function(e) {

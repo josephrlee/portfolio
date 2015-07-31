@@ -4,9 +4,9 @@
 
 @import url("genericons/genericons.css");
 // Varibles
-$body-background-color: #e5e1ee;
-$primary-color: #08415c;
-$link-color: #1eaedb;
+$body-background-color: #d9dfed;
+$primary-color: #444;
+$link-color: #cc5200;
 $case-study-background-color: #b1c2e2;
 $case-study-odd-background-color: #dffdff;
 // Main Styles
@@ -14,11 +14,9 @@ body {
     background: $body-background-color;
     color: $primary-color;
 }
-
 a {
     transition: 0.3s;
 }
-
 img {
     opacity: 0;
     animation: fadein 1s;
@@ -26,7 +24,6 @@ img {
     -moz-animation: fadein 1s;
     -o-animation: fadein 1s;
 }
-
 @keyframes fadein {
     from {
         opacity: 0;
@@ -35,7 +32,6 @@ img {
         opacity: 1;
     }
 }
-
 @-webkit-keyframes fadein {
     from {
         opacity: 0;
@@ -44,7 +40,6 @@ img {
         opacity: 1;
     }
 }
-
 @-moz-keyframes fadein {
     from {
         opacity: 0;
@@ -53,7 +48,6 @@ img {
         opacity: 1;
     }
 }
-
 @-o-keyframes fadein {
     from {
         opacity: 0;
@@ -62,19 +56,14 @@ img {
         opacity: 1;
     }
 }
-
 img.visible {
     opacity: 1;
 }
-
-.menu,
-.menu-bg,
-.menu-burger {
+.menu, .menu-bg, .menu-burger {
     position: fixed;
     font-size: 30px;
     text-align: center;
 }
-
 .menu-bg {
     background-color: rgba(white, .8);
     pointer-events: none;
@@ -90,7 +79,6 @@ img.visible {
         transition: opacity 0.5s;
     }
 }
-
 .menu-burger {
     color: white;
     -webkit-user-select: none;
@@ -104,7 +92,6 @@ img.visible {
         transform: rotate(-90deg);
     }
 }
-
 .menu-items {
     position: absolute;
     font-weight: bold;
@@ -135,7 +122,6 @@ img.visible {
         }
     }
 }
-
 #about {
     padding-top: 5%;
     width: 100%;
@@ -150,14 +136,12 @@ img.visible {
         }
     }
 }
-
 p {
     font-size: 1.8rem;
     font-weight: 100;
     font-family: Calluna, serif;
     text-shadow: 0 -1px 2px rgba(white, 0.4);
 }
-
 #portrait {
     overflow: hidden;
     padding-top: 5%;
@@ -166,7 +150,6 @@ p {
         width: 100%;
     }
 }
-
 .case-study {
     padding: 5rem 0;
     background-color: $case-study-background-color;
@@ -180,8 +163,13 @@ p {
     article {
         margin-top: 2rem;
         padding-bottom: 4rem;
-        position: sticky;
-        position: -webkit-sticky;
+        position: relative;
+        z-index: 20;
+    }
+    article.fixto-fixed {
+        top: 2rem !important;
+        overflow: hidden;
+        z-index: -1;
     }
     h2 {
         font-weight: bold;
@@ -212,8 +200,7 @@ p {
             opacity: .8;
         }
     }
-    dt,
-    dd {
+    dt, dd {
         display: inline-block;
         margin: 0;
         padding: 0;
@@ -227,7 +214,6 @@ p {
         width: 64%;
     }
 }
-
 #work img {
     max-width: 100%;
     border: solid 1px rgba(black, 0.25);
@@ -238,12 +224,10 @@ p {
         box-shadow: 0 0 60px rgba(black, 0.2);
     }
 }
-
 .case-study .back-to-top {
     text-align: center;
     font-size: 1.6rem;
 }
-
 footer {
     background-color: $body-background-color;
     padding: 4rem 0 3rem;
@@ -256,20 +240,19 @@ footer {
     }
 }
 
-
 /* Only mobile */
 
 @media (max-width: 1040px) {
     .case-study article {
         position: relative !important;
+        left: 0 !important;
+        height: auto;
     }
 }
-
 
 /* Larger than mobile */
 
 @media (min-width: 400px) {}
-
 
 /* Larger than phablet (also point when grid becomes active) */
 
@@ -284,7 +267,6 @@ footer {
         }
     }
 }
-
 
 /* Larger than tablet */
 
@@ -307,7 +289,6 @@ footer {
         }
     }
 }
-
 
 /* Larger than desktop */
 
@@ -344,7 +325,6 @@ footer {
     }
 }
 
-
 /* Larger than Desktop HD */
 
 @media (min-width: 1200px) {
@@ -355,7 +335,7 @@ footer {
     #portrait {
         max-width: 50%;
         min-height: 700px;
-                img {
+        img {
             width: auto;
             height: 100%;
             margin-right: 0;

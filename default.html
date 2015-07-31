@@ -30,7 +30,7 @@
 {
         % for post in posts %
     }
-    
+
     #{{ post.meta.name }}
 {
     background-color: {
@@ -38,14 +38,14 @@
             post.meta.color
         }
     }
-    
+
     ;
     color: {
         {
             post.meta.type
         }
     }
-    
+
     ;
 }
 {
@@ -78,9 +78,9 @@
         </div>
     </nav>
     <header class="container">
-        <div id="portrait">
+        <figure id="portrait">
             <img src="{{ meta.portrait }}" alt="me" class="move">
-        </div>
+        </figure>
         <article id="about">
             <h1>{{ meta.title }}
         <a href="http://instagram.com/josephrlee" title="View my Instagram">
@@ -142,4 +142,3 @@
 </body>
 
 </html>
-

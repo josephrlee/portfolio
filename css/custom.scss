@@ -4,11 +4,11 @@
 
 @import url("genericons/genericons.css");
 // Varibles
-$body-background-color: #d9dfed;
+$body-background-color: #DFEAF3;
 $primary-color: #444;
-$link-color: #cc5200;
-$case-study-background-color: #b1c2e2;
-$case-study-odd-background-color: #dffdff;
+$link-color: #4FADC4;
+$case-study-background-color: #E0F8F6;
+$case-study-odd-background-color: #EAFDFD;
 // Main Styles
 body {
     background: $body-background-color;
@@ -125,6 +125,7 @@ img.visible {
 #about {
     padding-top: 5%;
     width: 100%;
+    position: relative !important;
     h1 {
         font-weight: bold;
         font-size: 5rem;
@@ -161,16 +162,12 @@ p {
         border-top: solid 1px darken($body-background-color, 8%);
     }
     article {
-        margin-top: 2rem;
+        padding-top: 1rem;
         padding-bottom: 4rem;
         position: relative;
         z-index: 20;
     }
-    article.fixto-fixed {
-        top: 2rem !important;
-        overflow: hidden;
-        z-index: -1;
-    }
+
     h2 {
         font-weight: bold;
     }
@@ -237,16 +234,6 @@ footer {
     .colophon {
         font-style: italic;
         color: rgba($primary-color, 0.7);
-    }
-}
-
-/* Only mobile */
-
-@media (max-width: 1040px) {
-    .case-study article {
-        position: relative !important;
-        left: 0 !important;
-        height: auto;
     }
 }
 
@@ -317,8 +304,13 @@ footer {
         }
     }
     .case-study article {
-        margin-top: 5rem;
+        padding-top: 4rem;
+        padding-bottom: 0;
         padding-right: 2%;
+        margin-left: 0;
+    }
+    .case-study aside {
+      margin-right: 0;
     }
     .case-study .btn {
         width: 96%;

@@ -1,4 +1,6 @@
-// out: ../css/custom.css
+// out: ../css/style.css
+
+@import url("skeleton.css");
 
 /* Custom Styles  */
 
@@ -7,8 +9,8 @@
 $body-background-color: #DFEAF3;
 $primary-color: #444;
 $link-color: #4FADC4;
-$case-study-background-color: #E0F8F6;
-$case-study-odd-background-color: #EAFDFD;
+$case-study-background-color: #E6F5E5;
+$case-study-odd-background-color: #F7FFF0;
 // Main Styles
 body {
     background: $body-background-color;
@@ -123,7 +125,7 @@ img.visible {
     }
 }
 #about {
-    padding-top: 5%;
+    padding: 5% 0;
     width: 100%;
     position: relative !important;
     h1 {
@@ -259,7 +261,7 @@ footer {
 
 @media (min-width: 750px) {
     header {
-        height: 100vh;
+        min-height: 100vh;
     }
     #about {
         width: 45%;
@@ -311,6 +313,8 @@ footer {
     }
     .case-study aside {
       margin-right: 0;
+      padding-top: 4rem;
+      float: right;
     }
     .case-study .btn {
         width: 96%;

@@ -51,7 +51,7 @@
 /* For devices larger than 1040px */
 @media (min-width: 1040px) {
   .container {
-    width: 90%; }
+    width: 88%; }
   .column,
   .columns {
     margin-left: 2%; }

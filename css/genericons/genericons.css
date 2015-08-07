@@ -61,3 +61,7 @@ a .genericon {
 .genericon-linkedin:before {
   content: "\f208";
 }
+
+.genericon-expand:before {
+  content: '\f431';
+}

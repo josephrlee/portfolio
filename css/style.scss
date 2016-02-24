@@ -1,4 +1,3 @@
-// out: ../css/style.css
 @import url("skeleton.css");
 
 /* Fonts  */
@@ -98,9 +97,9 @@ img.visible {
 }
 .menu-items {
   position: absolute;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 5rem;
-  font-family: salome, serif;
+  font-family: majesti, serif;
   letter-spacing: 5px;
   color: white;
   width: 100%;
@@ -138,9 +137,9 @@ img.visible {
   width: 100%;
   position: relative !important;
   h1 {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 5rem;
-    font-family: salome, serif;
+    font-family: majesti, serif;
     text-shadow: 4px 4px 0 #D5E0E8;
     a {
       text-decoration: none;
@@ -205,10 +204,10 @@ p {
   }
   .btn {
     border: solid 1px $link-color;
-    font-family: salome, serif;
+    font-family: majesti, serif;
     padding: 1rem 4rem;
     border-radius: 4px;
-    font-weight: normal;
+    font-weight: 700;
     text-decoration: none;
     text-align: center;
     display: inline-block;

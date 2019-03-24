@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2019-03-23 19:58:00 Z
+date: 2019-03-23 12:58:00 -07:00
 ---
 
 Hi, I’m a designer living in Seattle. 

@@ -1,6 +1,6 @@
 ---
 title: 44-Cent Cure
-date: 2015-06-30 20:56:00 Z
+date: 2015-06-30 13:56:00 -07:00
 name: deworming
 description: Intestinal worms suck the life out of you. <a href="http://worldconcern.org/44centcure"
   title="Visit the 44-Cent Cure">The 44-Cent Cure</a> is World Concern’s campaign

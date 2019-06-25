@@ -1,6 +1,6 @@
 ---
 title: Witness The Transformation
-date: 2015-07-03 04:10:00 Z
+date: 2015-07-02 21:10:00 -07:00
 name: witness
 description: A new shiny website is nice, but it means nothing if it doesn’t get people
   engaged. So, to accompany the launch of World Concern’s website, I thought it was

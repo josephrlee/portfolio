@@ -1,6 +1,6 @@
 ---
 title: World Concern
-date: 2015-06-05 23:51:00 Z
+date: 2015-06-05 16:51:00 -07:00
 color: 
 name: world-concern
 description: "In 2013 I led the redesign of <a href=\"http://worldconcern.org/\" title=\"Visit

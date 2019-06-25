@@ -1,6 +1,6 @@
 ---
 title: Global Gift Guide
-date: 2015-06-06 00:29:00 Z
+date: 2015-06-05 17:29:00 -07:00
 color: 
 name: ggg
 description: "Every Holiday season, World Concern rolls out the <a href=\"https://globalgiftguide.worldconcern.org\"

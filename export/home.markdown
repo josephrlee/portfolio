@@ -1,6 +1,6 @@
 ---
 title: Joseph Lee
-date: 2015-06-04 06:02:00 Z
+date: 2015-06-03 23:02:00 -07:00
 author: Joseph Lee
 hero-image: "/uploads/world-concern-homepage.jpg"
 portrait: "/uploads/portrait.jpg"

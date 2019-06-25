@@ -1,6 +1,6 @@
 ---
 title: E Cards
-date: 2015-07-03 20:02:00 Z
+date: 2015-07-03 13:02:00 -07:00
 name: cards
 description: In order to make the launch of the  <a href="http://globalgiftguide.org"
   title="Visit the Global Gift Guide">Global Gift Guide</a> successful, we created

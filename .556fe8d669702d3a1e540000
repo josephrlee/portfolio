@@ -1,5 +1,5 @@
 ---
-time: 1561445634
+time: 1561448642
 inventory:
   "/home/index.html":
     md5: e44005e8fad5844c352c6f8fa0caeb74
@@ -58,9 +58,6 @@ inventory:
   "/css/normalize.css":
     md5: 4555077d49642ee7558d9e12bc9660e5
     time: 1561445609
-  "/assets/favicon.png":
-    md5: b387df3d2d1f7f77731f74ccaa8888e4
-    time: 1561445609
   "/assets/world-concern-end-of-year.jpg":
     md5: 755966d155f1cf0cfb2eb4d7c3e9ec5c
     time: 1561445610
@@ -75,9 +72,6 @@ inventory:
     time: 1561445610
   "/assets/ecards-step-1.jpg":
     md5: f92ca33a1953db75dc224b467be7e93b
-    time: 1561445610
-  "/tmp/restart.txt":
-    md5: d41d8cd98f00b204e9800998ecf8427e
     time: 1561445610
   "/assets/witness-the-transformation.jpg":
     md5: 037e5ded1239b6362d70e0b3597bfa73
@@ -154,9 +148,6 @@ inventory:
   "/css/fonts/salome-webfont.woff2":
     md5: fea663fc56fcf025b5022b2d29817c20
     time: 1561445612
-  "/assets/css":
-    md5: 3efd8ab887e216ca11c21f6476360dfd
-    time: 1561445612
   "/css/fonts/fonts.css":
     md5: a6897f76251f4ff601bb7effbe3135f7
     time: 1561445612
@@ -202,6 +193,12 @@ inventory:
   "/css/skeleton.css":
     md5: 69052d0e93329c0f4a80c95f62bcca38
     time: 1561445614
+  "/Gemfile":
+    md5: c6b690eb018f467f05ae3c328996f642
+    time: 1561448641
+  "/Gemfile.lock":
+    md5: e2911cffe26e93b15f4acba5a9e52480
+    time: 1561448641
   "/assets/ecards-step-2.jpg":
     md5: 5c186c49e2bce8dc143959ac96ffe60a
     time: 1561445614

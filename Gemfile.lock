@@ -1,17 +1,27 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ffi (1.11.1)
     httmultiparty (0.3.16)
       httparty (>= 0.7.3)
       mimemagic
       multipart-post
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
-    mimemagic (0.3.2)
+    mimemagic (0.3.3)
     multi_xml (0.6.0)
-    multipart-post (2.0.0)
-    psych (3.0.2)
-    rack (2.0.5)
+    multipart-post (2.1.1)
+    psych (3.1.0)
+    rack (2.0.7)
+    rake (12.3.2)
+    rb-fsevent (0.10.3)
+    rb-inotify (0.10.0)
+      ffi (~> 1.0)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     siteleaf (1.0.10)
       httmultiparty (~> 0.3.13)
       httparty (~> 0.14.0)
@@ -22,6 +32,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rake
+  sass
   siteleaf (~> 1)
 
 BUNDLED WITH

@@ -14,11 +14,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Styles
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
   <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="icon" type="image/png" href="https://secure.gravatar.com/avatar/6b71e032d7439bec02c616f600aaad7d?s=128">
   <!-- Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -39,7 +38,7 @@
   </nav>
   <header class="container">
     <aside id="portrait">
-      <img src="{{ meta.portrait }}" alt="me" class="move">
+      <img src="{{ meta.portrait }}" alt="me" class="move" loading="lazy">
     </aside>
     <article id="about">
       <h1>{{ meta.title }}
@@ -58,17 +57,43 @@
     </article>
   </header>
   <main id="work">
-    {% assign sorted_posts = posts | sort:"meta.num" %} {% for post in sorted_posts %}
-    <section id="{{ post.meta.name }}" class="case-study">
+    {% assign sorted_posts = posts | sort:"meta.num" %} 
+    {% for post in sorted_posts %}
+    <section id="{{ post.url }}" class="case-study">
       <div class="container">
         <article class="four columns info">
           <h2>{{ post.title }}</h2>
-          <p>{{ post.meta.description }}</p>
-          {{ post.meta.meta }}
-          <p><a href="{{ post.meta.visit }}" title="Visit {{ post.title }}" class="btn twelve columns">View Live Site</a></p>
+          {{ post.body }}
+          {{ post.meta.meta }}          
+          <dl>
+            {% for tagset in post.taxonomy %}
+              <dt>{{tagset.key}}</dt>
+              <dd>
+                {% for tag in tagset %}
+                  {{tag.value}}{% if tagset.size > 1 %}<span class="comma">,</span>{% endif %}
+                {% endfor %}
+              </dd>
+            {% endfor %}
+          </dl>
+          
+          {% if post.meta.visit %}
+          <p>
+            <a href="{{ post.meta.visit }}" title="Visit {{ post.title }}" class="btn twelve columns">View Site</a>
+          </p>
+          {% endif %}
         </article>
         <aside class="eight columns images">
-          {{ post.body }}
+          {% for asset in post.assets %}
+            {% if asset.type == 'image' %}
+              <img src="{{asset.url}}" loading="lazy" alt="{{ asset.meta.name }}" />
+            {% elsif asset.type == 'audio' %}
+              <audio><source src="{{asset.url}}" type="{{asset.content_type}}"></audio>
+            {% elsif asset.type == 'video' %}
+              <video><source src="{{asset.url}}" type="{{asset.content_type}}"></video>
+            {% elsif asset.type == 'other' %}
+              <a href="{{asset.url}}">Download {{asset.filename}}</a></li>
+            {% endif %}
+          {% endfor %}
           <p class="back-to-top"><a href="#about" title="Back to Top">Back to Top</a></p>
         </aside>
       </div>

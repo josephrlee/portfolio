@@ -1,7 +1,11 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
 @import url("skeleton.css");
 
 /* Fonts  */
+@import url("https://use.typekit.net/isy2dwp.css");
 @import url("fonts/fonts.css");
+
 
 // Varibles
 $body-background-color: #dfeaf3;
@@ -9,21 +13,27 @@ $primary-color: #444;
 $link-color: #4fadc4;
 $case-study-background-color: #e6f5e5;
 $case-study-odd-background-color: #f7fff0;
+$primary-font-family: freight-micro-pro, serif;
+$header-fonts: brandon-grotesque, sans-serif;
 
 // Main Styles
 body {
   background: $body-background-color;
   color: $primary-color;
+  font-family: $primary-font-family;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-fonts;
 }
 a {
   transition: 0.3s;
 }
 img {
   opacity: 0;
-  animation: fadein 1s;
-  -webkit-animation: fadein 1s;
-  -moz-animation: fadein 1s;
-  -o-animation: fadein 1s;
+  animation: fadein 500ms;
+  -webkit-animation: fadein 500ms;
+  -moz-animation: fadein 500ms;
+  -o-animation: fadein 500ms;
 }
 @keyframes fadein {
   from {
@@ -75,11 +85,11 @@ img.visible {
   height: 100%;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 300ms, visibility 0s 300ms;
   &.fs {
     opacity: 1;
     visibility: visible;
-    transition: opacity 0.5s;
+    transition: opacity 300ms;
   }
 }
 .menu-burger {
@@ -99,7 +109,7 @@ img.visible {
   position: absolute;
   font-weight: 700;
   font-size: 5rem;
-  font-family: majesti, serif;
+  font-family: $header-fonts;
   letter-spacing: 5px;
   color: white;
   width: 100%;
@@ -111,7 +121,7 @@ img.visible {
   pointer-events: none;
   z-index: 22;
   div {
-    transition: 1s;
+    transition: 500ms;
     opacity: 0;
     margin-top: 0;
      a {
@@ -138,15 +148,19 @@ img.visible {
   position: relative !important;
   h1 {
     font-weight: 900;
-    font-size: 5rem;
-    font-family: majesti, serif;
+    font-size: 6rem;
     text-shadow: 4px 4px 0 #D5E0E8;
     a {
       text-decoration: none;
     }
     .genericon {
-      margin-top: 3rem;
+      vertical-align: baseline;
     }
+  }
+  p {
+    font-style: italic;
+    font-weight: 100;
+    font-size: larger;
   }
   .more {
     display: none;
@@ -170,9 +184,9 @@ img.visible {
   }
 }
 p {
-  font-size: 1.8rem;
+  font-size: 1.85rem;
   font-weight: 100;
-  font-family: aleo, serif;
+  font-family: $primary-font-family;
   text-shadow: 0 -1px 2px rgba(white, 0.4);
 }
 #portrait {
@@ -204,7 +218,7 @@ p {
   }
   .btn {
     border: solid 1px $link-color;
-    font-family: majesti, serif;
+    font-family: $header-fonts;
     padding: 1rem 4rem;
     border-radius: 4px;
     font-weight: 700;
@@ -223,7 +237,7 @@ p {
     padding: 2rem 0;
     margin: 1em 0 3em;
     opacity: 0.6;
-    transition: opacity 1s;
+    transition: opacity 500ms;
     &:hover {
       opacity: 0.8;
     }
@@ -241,6 +255,9 @@ p {
   }
   dd {
     width: 64%;
+    .comma:last-child {
+      display: none;
+    }
   }
 }
 #work img {
@@ -249,6 +266,7 @@ p {
   border-radius: 4px;
   box-shadow: 0 0 60px rgba(black, 0.1);
   transition: ease 0.3s;
+  margin-bottom: 3rem;
   &:hover {
     box-shadow: 0 0 60px rgba(black, 0.2);
   }
@@ -314,7 +332,7 @@ footer {
     width: 45%;
     padding: 6% 0;
     p {
-      font-size: 1.9rem;
+      font-size: 2rem;
     }
     .more {
       display: block;
@@ -355,6 +373,9 @@ footer {
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   #about {
+    h1 {
+      font-size: 8rem;
+    }
     width: 40%;
     padding: 8% 5%;
   }

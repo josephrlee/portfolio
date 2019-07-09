@@ -24,7 +24,7 @@ $(document).ready(function() {
   //Portriat Fade Out
 
   $(window).scroll(function() {
-    $("#portrait").css("opacity", 1 - $(window).scrollTop() / 600);
+    $("#portrait").css("opacity", 1 - $(window).scrollTop() / 900);
   });
 
   // Sticky
@@ -56,7 +56,7 @@ $(document).ready(function() {
 
     $('html, body').stop().animate({
       'scrollTop': $target.offset().top
-    }, 900, 'swing', function() {
+    }, 300, 'swing', function() {
       window.location.hash = target;
     });
   });

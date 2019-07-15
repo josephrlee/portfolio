@@ -1,12 +1,12 @@
 ---
-time: 1563225671
+time: 1563225814
 inventory:
   "/home/index.html":
-    md5: fff0e6ed4e5d27511f24ef744f7b98a2
-    time: 1563225659
+    md5: 76fee62b4ef459361114a2db1a3d635c
+    time: 1563225807
   "/index.html":
-    md5: fff0e6ed4e5d27511f24ef744f7b98a2
-    time: 1563225659
+    md5: 76fee62b4ef459361114a2db1a3d635c
+    time: 1563225807
   "/home/remember-a-pet/index.html":
     md5: 41859cdfa3cfa6dd8c7d81e73e3638b5
     time: 1563225659
@@ -20,8 +20,8 @@ inventory:
     md5: 37e00b955e97f00ce553c73e2f6cd0ed
     time: 1563224469
   "/home/world-concern/index.html":
-    md5: 2c0555a44d6f451d89daf8bbb1c6f4b9
-    time: 1563224469
+    md5: 3cc1ffc0e9f0a94a41a0ceb010279bb1
+    time: 1563225807
   "/home/e-cards/index.html":
     md5: 59c87a5c9c9dab29ce3cc179458f50c7
     time: 1562658912
@@ -29,17 +29,17 @@ inventory:
     md5: 1f998d7f58ed95838a640f6f13f7eb1b
     time: 1562658912
   "/home/archive/index.html":
-    md5: d26837772d80ed446e982a51bba41933
-    time: 1563225660
+    md5: d5ff84f08861bac05aa7d61c01056bc3
+    time: 1563225807
   "/home/role/index.html":
     md5: 920cc873330b25900421ff866ed7efde
     time: 1562658912
   "/home/role/design/index.html":
-    md5: 1104b64ceca7b3a1c08ab3476f153354
-    time: 1563225660
+    md5: 8c21865efeff341af043465893bf6bf8
+    time: 1563225808
   "/home/role/development/index.html":
-    md5: 35a89fa8c6d2a461495e3c7c17ab8f0c
-    time: 1563225661
+    md5: ac5b3b5e86279b1fce85ff35e7344788
+    time: 1563225808
   "/home/role/visual-design/index.html":
     md5: 73a693418a67bff5c05ba1b27d72ae83
     time: 1563224469
@@ -50,8 +50,8 @@ inventory:
     md5: b01d3a4a95027b5722865c3022fe12a6
     time: 1563224470
   "/home/role/ia/index.html":
-    md5: 5a6401042f45edc317d5a12df103fdcc
-    time: 1563224470
+    md5: a401fa9b7c11b16585516ae1b5f3b379
+    time: 1563225808
   "/home/client/index.html":
     md5: 89b7a40a85a9012f62135fddd2237b21
     time: 1562658912
@@ -62,8 +62,8 @@ inventory:
     md5: 070c7b540f6ba4ec476cd20770b22152
     time: 1563224470
   "/home/client/world-concern/index.html":
-    md5: b32143a94bf89a7dcbbbfd64c3701ab9
-    time: 1563224470
+    md5: 9f58e18a710a9beb98c00821d15067d2
+    time: 1563225809
   "/home/client/world-conern/index.html":
     md5: 5fe0dedfd5156de09f87ca8ae902df73
     time: 1563224470
@@ -77,8 +77,8 @@ inventory:
     md5: 5799c8161ea65480fdd1003d760387c9
     time: 1563224470
   "/home/released/september-2013/index.html":
-    md5: b339f54ff855e65e3eae62b433d19ae9
-    time: 1563224471
+    md5: 5990b89c76e8b7acf880818b59c6192b
+    time: 1563225809
   "/home/released/september-2018/index.html":
     md5: 6aa68747661621a3e3553b8356a61ac9
     time: 1563224471
@@ -86,11 +86,11 @@ inventory:
     md5: bedac71b78638e03c67b779734273300
     time: 1561445609
   "/sitemap.xml":
-    md5: 8fd710fe79e1d859f21492cc3e90c6e3
-    time: 1563225662
+    md5: 023921fcb2d145bc41a63e7ac5da55fc
+    time: 1563225809
   "/feed.xml":
-    md5: d900ae5297a32b3c32cd3924c11105f9
-    time: 1563225662
+    md5: f02dafa1470c749deff1ffc0a458f980
+    time: 1563225809
   "/css/normalize.css":
     md5: 4555077d49642ee7558d9e12bc9660e5
     time: 1561445609
@@ -301,12 +301,12 @@ inventory:
   "/assets/rap-blog.jpg":
     md5: 80550e0ef3b6712d2801f478e60a685d
     time: 1563225663
-  "/assets/world-concern-stripe-donate.jpg":
-    md5: 702e9b2dcb4a5b6580cb3e1c0e45708a
-    time: 1561445615
   "/assets/sua-enrollment.jpg":
     md5: e3b8c73168b6012f839b718e83fecc4f
     time: 1562742894
   "/assets/rap-cart.jpg":
     md5: 0f9a958fdb7d00a3db594f3a5b1afbf3
     time: 1563225663
+  "/assets/world-concern-transform.jpg":
+    md5: ddf3b4476b4258bc7d0abbfcc7dacdd2
+    time: 1563225809

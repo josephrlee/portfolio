@@ -1,12 +1,12 @@
 ---
-time: 1563225814
+time: 1564618070
 inventory:
   "/home/index.html":
-    md5: 76fee62b4ef459361114a2db1a3d635c
-    time: 1563225807
+    md5: 55d13c7c6d874215db9cd63c05c0bd53
+    time: 1564618066
   "/index.html":
-    md5: 76fee62b4ef459361114a2db1a3d635c
-    time: 1563225807
+    md5: 55d13c7c6d874215db9cd63c05c0bd53
+    time: 1564618066
   "/home/remember-a-pet/index.html":
     md5: 41859cdfa3cfa6dd8c7d81e73e3638b5
     time: 1563225659
@@ -86,11 +86,11 @@ inventory:
     md5: bedac71b78638e03c67b779734273300
     time: 1561445609
   "/sitemap.xml":
-    md5: 023921fcb2d145bc41a63e7ac5da55fc
-    time: 1563225809
+    md5: 7855594114f94ba33bef3cf5fd04bb6e
+    time: 1564618068
   "/feed.xml":
-    md5: f02dafa1470c749deff1ffc0a458f980
-    time: 1563225809
+    md5: 5593d4243a23a21adc21d25c657de4e4
+    time: 1564618068
   "/css/normalize.css":
     md5: 4555077d49642ee7558d9e12bc9660e5
     time: 1561445609

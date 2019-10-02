@@ -1,90 +1,90 @@
 ---
-time: 1569998151
+time: 1569998375
 inventory:
   "/home/index.html":
-    md5: c42cdeddbbc72bab65cfa3f89618ca5c
-    time: 1569998142
+    md5: ed096100aeda4f98e5e14dd3a93172c1
+    time: 1569998361
   "/index.html":
-    md5: c42cdeddbbc72bab65cfa3f89618ca5c
-    time: 1569998142
+    md5: ed096100aeda4f98e5e14dd3a93172c1
+    time: 1569998361
   "/home/remember-a-pet/index.html":
-    md5: 0a59ad7578314d0240c89462bb50289c
-    time: 1569998142
+    md5: 538f89f1dcd409ca1dff0dbfe2ffeac0
+    time: 1569998361
   "/home/sua/index.html":
-    md5: fcc97c225fefaef82ef3aeac7e2d145f
-    time: 1569998142
+    md5: 229fb12027183a50d7807301c9a4cf12
+    time: 1569998361
   "/home/global-gift-guide/index.html":
-    md5: 37e00b955e97f00ce553c73e2f6cd0ed
-    time: 1563224469
+    md5: 329b0910e77c58d8a4f3b3098258c5b7
+    time: 1569998361
   "/home/world-concern/index.html":
-    md5: 3cc1ffc0e9f0a94a41a0ceb010279bb1
-    time: 1563225807
+    md5: ce5c3e34232a8ed2998cddcf2b0d6e91
+    time: 1569998361
   "/home/e-cards/index.html":
-    md5: 59c87a5c9c9dab29ce3cc179458f50c7
-    time: 1562658912
+    md5: ee3adc50310880f92753eb0197ce058e
+    time: 1569998361
   "/home/witness/index.html":
-    md5: d4c85065e688b41c0b9fa8d64f275c05
-    time: 1563224469
+    md5: 3fcf3e1e7ce86e8858745dfe7e855257
+    time: 1569998361
   "/home/44-cent-cure/index.html":
-    md5: 1f998d7f58ed95838a640f6f13f7eb1b
-    time: 1562658912
+    md5: fadc7a96e2b7cfee661b495ada5063bb
+    time: 1569998361
   "/home/archive/index.html":
-    md5: 0245bccf91404084a7732f03517fcb4c
-    time: 1569998143
+    md5: e3ee11e695ca48ccaf5f76fc7e8416f1
+    time: 1569998361
   "/home/role/index.html":
-    md5: 920cc873330b25900421ff866ed7efde
-    time: 1562658912
+    md5: 7b7f69eae2058e5a858e931e1e5fcec6
+    time: 1569998361
   "/home/role/design/index.html":
-    md5: e12ed9f68dfbcb7f1746fcd4698a481f
-    time: 1569998143
+    md5: b38dbe40995c7a7d0d447ab8d57d78b0
+    time: 1569998362
   "/home/role/development/index.html":
-    md5: 7f2e70191310dd9c465d4915d95c4dd3
-    time: 1569998143
+    md5: 3ff3c87ebb4ad5bd1be9bf7f403a68f2
+    time: 1569998362
   "/home/role/visual-design/index.html":
-    md5: 84227dafb56788eb040ac95ede2494e3
-    time: 1569998143
+    md5: 3d45c8376058c8dad6fc8174a945619f
+    time: 1569998362
   "/home/role/ux/index.html":
-    md5: 4b12e2af56100f7adf9bd5eb437b4859
-    time: 1569998144
+    md5: a2c634a8d1b978d3c63a5c342ecc54f1
+    time: 1569998362
   "/home/role/developement/index.html":
-    md5: b01d3a4a95027b5722865c3022fe12a6
-    time: 1563224470
+    md5: 76811d85fa88582ae98e95a86a1c2929
+    time: 1569998363
   "/home/role/ia/index.html":
-    md5: 61579d64a10d154b64b4fa9d59ef0b45
-    time: 1569622675
+    md5: 2a35fbb5b0805caaec06f2c03cae6a69
+    time: 1569998363
   "/home/client/index.html":
-    md5: 89b7a40a85a9012f62135fddd2237b21
-    time: 1562658912
+    md5: 6a1d2107baf84b360c49f52e9f3b1e1a
+    time: 1569998363
   "/home/client/remember-a-pet/index.html":
-    md5: ddb5fbc05481e7f5461e57ec473fdb56
-    time: 1569998144
+    md5: 691ea62ffda50d71f02858b42c7b2aa3
+    time: 1569998363
   "/home/client/seattle-urban-academy/index.html":
-    md5: 1246e2eee955837b0a4bc3ea3026258e
-    time: 1569998144
+    md5: 14ed8ac0bae796950974085bef2e882f
+    time: 1569998363
   "/home/client/world-conern/index.html":
-    md5: 5fe0dedfd5156de09f87ca8ae902df73
-    time: 1563224470
+    md5: a4867d4fef250015c1fdc08fd8ef498f
+    time: 1569998363
   "/home/client/world-concern/index.html":
-    md5: 698565d6d9286f7e0ba971f490aa6822
-    time: 1569623073
+    md5: b856dda539c5f497f6be1047b3cf7abc
+    time: 1569998363
   "/home/date/index.html":
-    md5: 8feade8e5bc1180b2891bb43990fcf18
-    time: 1569998144
+    md5: 08e76e2e8b4583920ae16c2b689f1ac5
+    time: 1569998363
   "/home/date/2016/index.html":
-    md5: 83e38538e27aed7f1799e38cc4c7b346
-    time: 1569998144
+    md5: 24774b682781cb28d1c35f16c1e2cef3
+    time: 1569998363
   "/home/released/index.html":
-    md5: a32bfd7a1657ede6c16e1d4c7683e0a4
-    time: 1562658913
+    md5: e4b9766d8777981556e70329e16d4686
+    time: 1569998363
   "/home/released/feburary-2019/index.html":
-    md5: 2133f96450189c57406dbc50bbe8b147
-    time: 1569998144
+    md5: f7259a1a5306cf6f43ab0186531b99fc
+    time: 1569998363
   "/home/released/september-2018/index.html":
-    md5: 6aa68747661621a3e3553b8356a61ac9
-    time: 1563224471
+    md5: 1e7a320402c73689471d878cbd69fb0a
+    time: 1569998364
   "/home/released/september-2013/index.html":
-    md5: b608b56057d15c5843ef235a51bb49cc
-    time: 1569623074
+    md5: 4b5febf0016875b06bbcfc452830aca6
+    time: 1569998364
   "/CNAME":
     md5: bedac71b78638e03c67b779734273300
     time: 1561445609
@@ -92,8 +92,8 @@ inventory:
     md5: c51027490b107fb2b7ed3626995e4d8c
     time: 1569998145
   "/feed.xml":
-    md5: 6d560547000cb7fe1d5e919bfae6ea7f
-    time: 1569998145
+    md5: c4770d1d513aa24c2ec668405322f55c
+    time: 1569998364
   "/css/normalize.css":
     md5: 4555077d49642ee7558d9e12bc9660e5
     time: 1561445609
@@ -208,20 +208,8 @@ inventory:
   "/css/fonts/majesti-banner-heavy-webfont.woff2":
     md5: fff5fbf862b2f4e4ef7cb64a6f585501
     time: 1561445614
-  "/css/style.css.map":
-    md5: a781e0055f00b7546b93b5862387460d
-    time: 1562658914
-  "/css/skeleton.css":
-    md5: 22f31bfab7d80ec325fbcebee48de04a
-    time: 1562658914
-  "/css/style.css":
-    md5: 203ddac9ba5a7441c4c137e0ccd35c77
-    time: 1562658914
   "/css/fonts/fonts.css":
     md5: e3c0adb361aeccf00da8ac503853322c
-    time: 1562658914
-  "/_scss/style.scss":
-    md5: 65bf1b83d5ac7cc9eb7803585e778c49
     time: 1562658914
   "/Rakefile":
     md5: fb14f55d0b88f53fea86b886340c222a
@@ -247,6 +235,18 @@ inventory:
   "/assets/worldconcern-water-campaign.jpg":
     md5: 1eae1f2443d65dd9d4c785a7ee622623
     time: 1569622676
+  "/css/style.css.map":
+    md5: 378eb1febe02365ebaf8be98c0977d0d
+    time: 1569998364
+  "/css/skeleton.css":
+    md5: 869e179eee383a5f806d70295d3f192b
+    time: 1569998364
+  "/css/style.css":
+    md5: 89b0f56dc2107bfc741907cee22f2566
+    time: 1569998364
+  "/_scss/style.scss":
+    md5: 3b03dedd82f73b5a80675a54709a1b60
+    time: 1569998364
   "/assets/ecards-step-2.jpg":
     md5: 5c186c49e2bce8dc143959ac96ffe60a
     time: 1561445614

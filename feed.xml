@@ -3,7 +3,7 @@
   <channel>
     <title>Joseph Lee | A designer living in Seattle</title>
     <link>http://josephrlee.com</link>
-    <pubDate>Tue, 01 Oct 2019 23:39:24 -0700</pubDate>
+    <pubDate>Fri, 11 Oct 2019 09:51:47 -0700</pubDate>
     
     <item>
       <title>Remember A Pet</title>
@@ -21,7 +21,9 @@
       <pubDate>Mon, 08 Jul 2019 21:39:00 -0700</pubDate>
       <author>Joseph Lee</author>
       <guid>http://josephrlee.com/home/sua</guid>
-      <description>&lt;p&gt;Designed a new website for Seattle Urban Academy to simplify the navigation and improve the user experience. The redesign focused on optimizing the site for two unique audiences: students/parents and donors/volunteers in order to increase school enrollment and acquire new donors. Also integrated a digital volunteer solution that connects with Salesforce. SUA is a positive, educational community where students overcome risks to graduate high school.&lt;/p&gt;
+      <description>&lt;p&gt;Seattle Urban Academy is a positive, educational community where students overcome risks to graduate and succeed in life. They were in need of a new website to appeal to prospective students and donors and move away from the old site’s negative voice and visuals.&lt;/p&gt;
+
+&lt;p&gt;The redesign focused on engaging prospective students and donors with positive imagery and messaging that showcased the SUA family. I simplified the navigation and integrated a digital volunteer solution that connects with Salesforce. I was also responsible for the front-end development and integration with Forestry.io, a static git-based CMS.&lt;/p&gt;
 </description>
     </item>
     

@@ -200,7 +200,8 @@ p {
     font-size: 1.6rem; }
   .case-study dt {
     font-weight: bold;
-    width: 34%; }
+    width: 34%;
+    vertical-align: top; }
   .case-study dd {
     width: 64%; }
     .case-study dd .comma:last-child {

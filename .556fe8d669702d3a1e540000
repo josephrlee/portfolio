@@ -1,5 +1,5 @@
 ---
-time: 1647631097
+time: 1651306513
 inventory:
   "/home/index.html":
     md5: ecf9e19e20b6615467688b9e2d3e90ea
@@ -259,6 +259,9 @@ inventory:
   "/_scss/style.scss":
     md5: b0f83a35a33b474114dfd30500581f46
     time: 1570812707
+  "/assets/Joseph-Lee-Resume.pdf":
+    md5: 2df76898e0f8c4a47fc3b356573b1e7f
+    time: 1651306513
   "/assets/ecards-step-2.jpg":
     md5: 5c186c49e2bce8dc143959ac96ffe60a
     time: 1561445614

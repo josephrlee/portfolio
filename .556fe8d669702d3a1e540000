@@ -1,12 +1,12 @@
 ---
-time: 1661467146
+time: 1714515063
 inventory:
   "/home/index.html":
-    md5: 03bf06a0fd67994de747b74295b32df6
-    time: 1661467142
+    md5: 4001810807fe75fb4447866631f516fd
+    time: 1714515058
   "/index.html":
-    md5: 03bf06a0fd67994de747b74295b32df6
-    time: 1661467142
+    md5: 4001810807fe75fb4447866631f516fd
+    time: 1714515058
   "/home/remember-a-pet/index.html":
     md5: cd3a18d83c14168792bcc52eda6b48d0
     time: 1652996793
@@ -101,11 +101,11 @@ inventory:
     md5: bedac71b78638e03c67b779734273300
     time: 1561445609
   "/sitemap.xml":
-    md5: e6970c1d9b3e63c5d2a9bb4d4f7d4cd5
-    time: 1661467144
+    md5: d3dcfa09cb495fa94e9b0c9bdfb82083
+    time: 1714515061
   "/feed.xml":
-    md5: d549e0d8495783b41f393471c4724ad5
-    time: 1661467144
+    md5: 1fdd9c00f41b10ca6c7b45894fc7524b
+    time: 1714515061
   "/css/normalize.css":
     md5: 4555077d49642ee7558d9e12bc9660e5
     time: 1561445609
@@ -262,6 +262,9 @@ inventory:
   "/assets/Joseph-Lee-Resume.pdf":
     md5: 2df76898e0f8c4a47fc3b356573b1e7f
     time: 1651306513
+  "/assets/joe-headshot-web.jpg":
+    md5: 56719e74ef8655ce617957703266b085
+    time: 1714515061
   "/assets/ecards-step-2.jpg":
     md5: 5c186c49e2bce8dc143959ac96ffe60a
     time: 1561445614
